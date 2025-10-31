@@ -52,8 +52,8 @@ jobs:
       uses: docker/metadata-action@v5.7.0
       with:
         images: |
-          quay.io/tarboox45-cpu/xhost-vps-egg
-          ghcr.io/${{ github.repository }}
+          quay.io/tarboox45-cpu+xhost/xhost-vps-egg
+          ghcr.io/tarboox45-cpu/tahou45-qu
           tarboox45-cpu/xhost-vps-egg
         tags: |
           type=ref,event=branch
