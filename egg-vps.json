@@ -10,9 +10,9 @@
     "description": "A powerful and lightweight X Host VPS egg for Pterodactyl Panel.\r\nCustomized by tarboox45-cpu",
     "features": null,
     "docker_images": {
-        "Quay.io": "quay.io/tarboox45-cpu/xhost-vps-egg:latest",
+        "Quay.io": "quay.io/tarboox45-cpu+xhost/xhost-vps-egg:latest",
         "Docker Hub": "tarboox45-cpu/xhost-vps-egg:latest",
-        "GitHub Container Registry": "ghcr.io/tarboox45-cpu/xhost-vps-egg:latest"
+        "GitHub Container Registry": "ghcr.io/tarboox45-cpu/tahou45-qu/xhost-vps-egg:latest"
     },
     "file_denylist": [],
     "startup": "./run.sh",
@@ -25,7 +25,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
-            "container": "quay.io\/tarboox45-cpu\/xhost-vps-egg",
+            "container": "quay.io\/tarboox45-cpu+xhost\/xhost-vps-egg",
             "entrypoint": "bash"
         }
     },
@@ -221,4 +221,4 @@
             "field_type": "text"
         }
     ]
-}
+        }
